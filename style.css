@@ -5,10 +5,29 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
+/* .container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 50s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    10%{
+        background-position: 0 50%;
+    }
+} */
 body{
     font-family: 'Poppins', sans-serif;
+    color: seashell;
 }
 
 html{
@@ -16,7 +35,7 @@ html{
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: orchid;
 }
 
 /* TRANSITION */
@@ -174,7 +193,7 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
-    border-radius: 15px;
+    border-radius: 1px;
     overflow: hidden;
 }
 
